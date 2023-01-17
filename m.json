@@ -3,7 +3,7 @@
   "sites": [
     {
       "key":"js豆瓣",
-      "name":"🍀公众号:Get有道,更新时间:2023/01/09",
+      "name":"🍀公众号:Get有道,更新时间:2023/01/17",
       "type":3,
       "api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js",
       "ext":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/drpy.js",
@@ -79,15 +79,6 @@
       "filterable":1,
       "ext":"./txt/ali.txt"
       },
-    {
-      "key": "csp_Kunyu77",
-      "name": "🍁酷云七七",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
 	{
       "key": "csp_AppTT",
       "name": "🗺️图图影视",
@@ -96,7 +87,34 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://124.248.66.107:9911"
+      "ext": "http://124.248.66.107:9955"
+    },
+    {
+      "key":"AppTT",
+      "name":"🗺️图图备用",
+      "type":3,
+      "api":"csp_Dora",
+      "jar":"http://w.g9.pub:66/381203888/Jar/pandatt.jar;md5; 3D6C99CAE168DA455AA766618BE7B604",
+      "ext":"110c922de7d69804467fb83d3bb664b5"
+    },
+    {
+      "key": "dr_厂长资源",
+      "name": "🏘️厂长(JS)",
+      "type": 3,
+      "api": "./js/libmain.js",
+      "searchable": 2,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./js/czspp.js"
+    },
+    {
+      "key":"csp_CZSPP",
+      "name":"🏭️厂长(SP)",
+      "type":3,
+      "api":"csp_Czsapp",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
     },
     {
       "key": "Lezhu_spider",
@@ -117,33 +135,24 @@
       "filterable":0,
       "ext":"./json/lezhu.json"
       },
-    {
-      "key": "csp_panghu",
-      "name":"🐯胖虎(SP)",
-      "type": 3,
-      "api": "csp_Panghu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key":"csp_xBPQ_胖虎",
-      "name":"🐯胖虎(XP)",
-      "type":3,
-      "api":"csp_xBPQ",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":0,
-      "ext":"./json/panghu.json"
-    },
 	{
       "key": "csp_BuLei",
-      "name": "⚡️布雷影视",
+      "name": "⚡️布蕾影视",
       "type": 3,
       "api": "csp_BuLei",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+	{
+      "key": "csp_Nmys",
+      "name": "👨‍🌾农民影视",
+      "type": 3,
+      "api": "csp_Nmys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/Nmys.json"
     },
    {
       "key": "小苹果",
@@ -155,6 +164,72 @@
       "filterable": 1
     },
     {
+      "key":"csp_Lib",
+      "name": "🍲LIB(SP)",
+      "type": 3,
+      "api": "csp_Lib",
+      "playerType":2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+      },
+    {
+		"key": "py_libvio",
+		"name": "🍲LIB(PY)",
+		"type": 3,
+		"api": "py_libvio",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"ext": "./json/pylibvio.py"
+	},
+    {
+      "key": "csp_xb_lib",
+      "name": "🍲LIB(XB)",
+      "type": 3,
+      "api": "csp_XBiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": " https://www.libvio.me/type/{cateId}-{catePg}.html"
+    },
+    {
+      "key":"csp_fant",
+      "name":"🍙饭团(SP)",
+      "type":3,
+      "api":"csp_Fantuan",
+      "playerType":2,
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+      },
+	{"key":"csp_xBPQ_饭团","name":"🍙饭团(XB)","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext": "{\r\n  \"name\": \"饭团\",\r\n  \"url\": \"http://www.fantuantva.com/\",\r\n  //\"User\": \"User-Agent:Dart/2.14 (dart:io)\",\r\n  \"shouye\": \"1\",\r\n  \"fenlei\": \"电影$/t/dianying/page/#大陆剧$/t/lianxuju/page/#国产剧$/t/guochanju/page/#综艺$/t/zongyi/page/#动漫$/t/dongman/page/\",\r\n  \"houzhui\": \".html\",\r\n  \"shifouercijiequ\": \"0\",\r\n  \"jiequqian\": \"空\",\r\n  \"jiequhou\": \"空\",\r\n  \"jiequshuzuqian\": \"class=\\\"show_play\\\">\",\r\n  \"jiequshuzuhou\": \"</div>\",\r\n  \"tupianqian\": \"data-original=\\\"\",\r\n  \"tupianhou\": \"\\\"\",\r\n  \"biaotiqian\": \"title=\\\"\",\r\n  \"biaotihou\": \"\\\"\",\r\n  \"lianjieqian\": \"href=\\\"\",\r\n  \"lianjiehou\": \"\\\"\",\r\n  \"sousuoqian\": \"/index.php/ajax/suggest?mid=1&wd=\",\r\n  \"sousuohou\": \"&limit=500\",\r\n  \"sousuohouzhui\": \"/v/\",\r\n  \"ssmoshi\": \"0\",\r\n  \"sousuoshifouercijiequ\": \"0\",\r\n  \"jspic\": \"pic\",\r\n  \"jsname\": \"name\",\r\n  \"jsid\": \"id\",\r\n  \"ssjiequqian\": \"空\",\r\n  \"ssjiequhou\": \"空\",\r\n  \"ssjiequshuzuqian\": \"空\",\r\n  \"ssjiequshuzuhou\": \"空\",\r\n  \"sstupianqian\": \"空\",\r\n  \"sstupianhou\": \"空\",\r\n  \"ssbiaotiqian\": \"空\",\r\n  \"ssbiaotihou\": \"空\",\r\n  \"sslianjieqian\": \"空\",\r\n  \"sslianjiehou\": \"空\",\r\n  \"bfshifouercijiequ\": \"0\",\r\n  \"bfjiequqian\": \"空\",\r\n  \"bfjiequhou\": \"空\",\r\n  \"bfjiequshuzuqian\": \"class=\\\"con_c2_list\\\">\",\r\n  \"bfjiequshuzuhou\": \"</ul>\",\r\n  \"zhuangtaiqian\": \"class=\\\"tc_wz\\\">\",\r\n  \"zhuangtaihou\": \"</p>\",\r\n  \"daoyanqian\": \"导演：</span>\",\r\n  \"daoyanhou\": \"</p>\",\r\n  \"zhuyanqian\": \"主演：</span>\",\r\n  \"zhuyanhou\": \"</p>\",\r\n  \"juqingqian\": \"</span>\",\r\n  \"juqinghou\": \"</p>\",\r\n  \"bfyshifouercijiequ\": \"0\",\r\n  \"bfyjiequqian\": \"空\",\r\n  \"bfyjiequhou\": \"空\",\r\n  \"bfyjiequshuzuqian\": \"<a\",\r\n  \"bfyjiequshuzuhou\": \"/a>\",\r\n  \"bfbiaotiqian\": \">\",\r\n  \"bfbiaotihou\": \"<\",\r\n  \"bflianjieqian\": \"href=\\\"\",\r\n  \"bflianjiehou\": \"\\\"\"},\r\n"}, 	
+    {
+     "key":"csp_DiDuan",
+     "name":"🐞低端(SP)",
+     "type":3,
+     "api":"csp_Ddrk",
+     "searchable":1,
+     "quickSearch":1,
+     "filterable":0
+    },
+	{
+      "key": "drpy_js_ddys",
+      "name": "🐞低端(PY)",
+      "type": 3,
+      "api": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
+      "ext": "http://home.jundie.top:666/JS/dr_py/js/ddys.js"
+    },	
+    {
+      "key": "csp_Kunyu77",
+      "name": "🍁酷云七七",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },	
+    {
       "key": "360_spider",
       "name": "💫360影视",
       "type": 3,
@@ -163,6 +238,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
+	{
+      "key":"csp_ZJMiao",
+      "name":"🐠视觉影院",
+      "type":3,
+      "api":"csp_Xinsj",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1
+     },
     {
       "key":"csp_xBPQ_鸭奈飞",
       "name":"🦆鸭奈飞",
@@ -172,7 +256,7 @@
       "quickSearch":1,
       "ext":"./json/naifei.json"
       },
-      {
+    {
         "key":"csp_xBPQ_555电影",
         "name":"🐾三五电影",
         "type":3,
@@ -181,7 +265,7 @@
         "quickSearch":1,
         "filterable":0,
         "ext":"./json/555xb.json"
-      },
+    },
 	{
       "key":"csp_app_阿里",
       "name":"🐼阿里影视",
@@ -221,16 +305,6 @@
       "quickSearch":1,
       "filterable":0,
       "ext":"./json/qiuxia.json"
-    },
-   {
-      "key": "csp_Nmys",
-      "name": "👨‍🌾农民影视",
-      "type": 3,
-      "api": "csp_Nmys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/Nmys.json"
     },
     {
       "key": "csp_xpath_独播库",
@@ -300,35 +374,6 @@
       "ext": "./json/真不卡.json"
     },
     {
-      "key": "py_dashan",
-      "name": "💋多多搭讪",
-      "type": 3,
-      "api": "py_dashan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext":"./Bili/搭讪.py"
-    },
-    {
-      "key": "py_dapei",
-      "name": "💃多多搭配",
-      "type": 3,
-      "api": "py_dapei",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./Bili/搭配.py"
-    },
-    {
-      "key":"csp_ZJMiao",
-      "name":"🐠视觉影院",
-      "type":3,
-      "api":"csp_Xinsj",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1
-      },
-    {
       "key":"csp_Smdyy",
       "name": "🐴神马影院",
       "type": 3,
@@ -336,41 +381,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "dr_厂长资源",
-      "name": "🏘️厂长(PY)",
-      "type": 3,
-      "api": "./js/libmain.js",
-      "searchable": 2,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./js/czspp.js"
-    },
-    {
-      "key":"csp_CZSPP",
-      "name":"🏭️厂长(SP)",
-      "type":3,
-      "api":"csp_Czsapp",
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1
-    },
-    {
-     "key":"csp_DiDuan",
-     "name":"🐞低端(SP)",
-     "type":3,
-     "api":"csp_Ddrk",
-     "searchable":1,
-     "quickSearch":1,
-     "filterable":0
-    },
-	{
-      "key": "drpy_js_ddys",
-      "name": "🐞低端(PY)",
-      "type": 3,
-      "api": "http://home.jundie.top:666/JS/dr_py/libs/drpy.min.js",
-      "ext": "http://home.jundie.top:666/JS/dr_py/js/ddys.js"
     },
     {
       "key": "csp_剧荒",
@@ -468,56 +478,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/%E9%AA%9A%E7%81%AB%E7%94%B5%E5%BD%B1.json"
-    },
-    {
-      "key":"csp_Lib",
-      "name": "🍲LIB(SP)",
-      "type": 3,
-      "api": "csp_Lib",
-      "playerType":2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-      },
-    {
-		"key": "py_libvio",
-		"name": "🍲LIB(PY)",
-		"type": 3,
-		"api": "py_libvio",
-		"searchable": 0,
-		"quickSearch": 0,
-		"filterable": 1,
-		"ext": "./json/pylibvio.py"
-	},
-    {
-      "key": "csp_xb_lib",
-      "name": "🍲LIB(XB)",
-      "type": 3,
-      "api": "csp_XBiu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": " https://www.libvio.me/type/{cateId}-{catePg}.html"
-    },
-    {
-      "key":"csp_fant",
-      "name":"🍙饭团(SP)",
-      "type":3,
-      "api":"csp_Fantuan",
-      "playerType":2,
-      "searchable":1,
-      "quickSearch":1,
-      "filterable":1
-      },
-    {
-      "key": "csp_xBPQ_饭团HD",
-      "name": "🍙饭团(XB))",
-      "type": 3,
-      "api": "csp_xBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/%E9%A5%AD%E5%9B%A2HD.json"
     },
 	{
       "key": "XBPQ_电影先生",
@@ -633,7 +593,7 @@
       "key":"csp_XPath_鹅直播",
       "name":"⚽企鹅直播",
       "type":3,
-      "api":"csp_XPath3",
+      "api":"csp_XPath",
       "searchable":0,
       "quickSearch":0,
       "filterable":0,
@@ -689,6 +649,26 @@
       "filterable": 0,
       "ext": "{\"分类url\":\"https://www.zhuafan.tech/sports-home/category/{cateId}\",\"分类\":\"全部$/all#足球$Football#篮球$Basketball#羽乒$Badminton#台球$Billiards#棒球$Baseball#户外$Outdoors#搏击$Wrestling#综合$Others#棋盘$Boardgame#电竞$Popular#网球$Tennis#排球$Volleyball#聊天$Chat#原声$Acoustic\",\"热门推荐\":\"1\",\"起始页\":\"1\",\"直接播放\":\"1\",\"数组\":\"{&&}\",\"图片\":\"imageUrl\\\":\\\"&&\\\"\",\"标题\":\"cname\\\":\\\"&&\\\"\",\"链接\":\"id\\\":\\\"&&\\\"\",\"链接前缀\":\"https://www.zhuafan.tech/\"}"
     },
+    {
+      "key": "py_dashan",
+      "name": "💋多多搭讪",
+      "type": 3,
+      "api": "py_dashan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":"./Bili/搭讪.py"
+    },
+    {
+      "key": "py_dapei",
+      "name": "💃多多搭配",
+      "type": 3,
+      "api": "py_dapei",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./Bili/搭配.py"
+    },	
     {
       "key": "csp_Bili",
       "name": "🅱️哔哩合集",
@@ -1277,7 +1257,7 @@
 "parses":[{"name":"解析聚合","type":3,"url":"Demo"},
  {"name":"Json并发","type":2,"url":"Parallel"},
  {"name":"Json轮询","type":2,"url":"Sequence"},
-{"name":"1号线","type":1,"url":"https://parse.ikunfk.cc/parse/sign/c092dfdaea71d857e79a3738b5ada748?url=","header":{"User-Agent":"Mozilla/5.0"}},
+{"name":"1号线","type":1,"url":"http://150.158.175.250:88/parse/sign/2f5c42918393e7729d67501a5d38fa03?url=","header":{"User-Agent":"Mozilla/5.0"}},
 {"name":"2号线","type":1,"url":"https://parse.ikunfk.cc/parse/sign/20221230?url=","header":{"User-Agent":"Mozilla/5.0"}},
 {"name":"3号线","type":0,"url":"https://vip.bljiex.com/?v="},
 {"name": "4号线","type": 1,"url": "http://pandown.pro/app/ysmjx.php?url=","ext": {"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header": {"User-Agent": "okhttp/4.1.0"}}},
